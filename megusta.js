@@ -1,15 +1,16 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    const likeButton = document.querySelector('#like-button');
+    const likeCountElement = document.querySelector('#like-count');
 
-let botonesMegusta = document.querySelectorAll('.megusta-button');
-
-botonesMegusta.forEach((boton, index) => {
-
-    let contadorMegusta = 0;
-
-
-    boton.addEventListener('click', () => {
-    
-        contadorMegusta++;
-
-        document.querySelector(`.megusta-count${index+1}`).textContent = contadorMegusta;
+    likeButton.addEventListener('click', () => {
+        // Obtiene el número actual de "me gusta" del elemento de texto
+        let likeCount = parseInt(likeCountElement.textContent);
+        
+        // Incrementa el número de "me gusta"
+        likeCount++;
+        
+        // Actualiza el texto del elemento con el nuevo número de "me gusta"
+        likeCountElement.textContent = `${likeCount} like(s)`;
     });
 });
+
