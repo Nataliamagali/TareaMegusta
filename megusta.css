@@ -1,0 +1,13 @@
+.like-button {
+    padding: 4px 15px;
+    background-color: #ffeb3b;
+    border: 2px solid black;
+position: absolute;
+top:10px;
+right: 10px;
+padding: 10px;
+
+}
+.someuser{
+border: 2px solid black;
+}

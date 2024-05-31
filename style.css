@@ -1,0 +1,96 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    text-align: start;
+    padding: 14px 0;
+}
+
+main {
+    display: flex;
+    margin: 22px;
+}
+
+.menu {
+    width: 255px;
+    height: 255px;
+    background-color: whitesmoke;
+    padding: 2px;
+border: 2px solid black;
+
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    border-radius: 80%;
+    width: 111px;
+    height: 101px;
+    margin-bottom: 10px;
+}
+
+.perfil a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #19181efc;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.perfil .username {
+    font-weight: bold;
+    margin-top: 11px;
+    justify-content:end;
+}
+
+.feed {
+    flex: 2;
+    margin-left: 25px;
+}
+
+.feed h1 {
+
+    color: rgb(15, 0, 0);
+    padding: 15px;
+    margin: 0 0 24px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 22px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 11px rgba(25, 24, 24, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 14px 0;
+}
+
+.megusta-button {
+    background-color: #efd50d;
+    color:black;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 9px;
+
+}
+.megusta-button:hover {
+    background-color: #ad6002;
+}
+
+.megusta-count {
+    margin-left: 10px;
+}
